@@ -50,10 +50,10 @@ def process_html_content(content):
 def insert_data_into_db(df):
     # Connect to PostgreSQL Database
     conn = psycopg2.connect(
-        dbname="DSE_DB",
+        dbname="",
         user="postgres",
-        password="iTrust123",
-        host="192.168.1.18",
+        password="",
+        host="",
         port="5432"
     )
     cur = conn.cursor()
